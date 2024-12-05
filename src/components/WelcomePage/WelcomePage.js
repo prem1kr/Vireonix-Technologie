@@ -76,12 +76,12 @@ const WelcomePage = () => {
               variant="h3"
               sx={{
                 fontWeight: 'bold',
-                color: '#CD5C5C',
+                color: '#ff5456',
                 marginBottom: '1rem',
                 fontSize: { xs: '2rem', md: '3rem' },
               }}
             >
-              Vireonix Tech
+              Vireonix Technologies
             </Typography>
             <Typography
               variant="body1"
@@ -110,7 +110,7 @@ Partner with us for innovative solutions to elevate your business.
     },
   }}
 >
-  I’m a Job Seeker
+  Enroll Now
 </Button>
 
              {/* <Button

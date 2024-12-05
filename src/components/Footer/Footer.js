@@ -65,7 +65,7 @@ const Footer = () => {
                   cursor: "pointer",
                   fontSize: { xs: "1.5rem", md: "2rem" },
                   transition: "color 0.3s",
-                  "&:hover": { color: "primary.main" },
+                  "&:hover": { color: "#ff5654" },
                 }}
               />
             ))}
@@ -78,7 +78,7 @@ const Footer = () => {
                   cursor: "pointer",
                   fontSize: { xs: "1.5rem", md: "2rem" },
                   transition: "color 0.3s",
-                  "&:hover": { color: "primary.main" },
+                  "&:hover": { color: "#ff5654" },
                 }}
               />
             </Link>

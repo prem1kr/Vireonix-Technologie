@@ -37,7 +37,7 @@ const CombinedContactPage = () => {
         color: "#333", // Darker text color for better readability
         fontWeight: "bold",
         marginBottom: "20px",
-        fontSize: { xs: "1.6rem", sm: "1.8rem", md: "2.2rem" }, // Responsive font sizes
+        fontSize: { xs: "1.6rem", sm: "1.8rem", md: "2.2rem",color:"#fb5957" }, // Responsive font sizes
       }}
     >
       Contact Us
@@ -48,7 +48,7 @@ const CombinedContactPage = () => {
       sx={{
         color: "#555",
         textAlign: "center",
-        fontSize: { xs: "1rem", sm: "1.1rem", md: "1.2rem" }, // Adjusted for readability
+        fontSize: { xs: "1rem", sm: "1.1rem", md: "1.2rem" ,color:"#00bf62"}, // Adjusted for readability
         lineHeight: 1.6,
       }}
     >
@@ -62,19 +62,19 @@ const CombinedContactPage = () => {
         sx={{ color: "#777", fontSize: "1rem", lineHeight: 1.6 }}
       >
         <strong>General Enquiry:</strong>{" "}
-        <a href="tel:+918945671230" style={{ color: "#0066cc", textDecoration: "none" }}>
+        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}>
           <Phone sx={{ fontSize: 18, marginRight: 1 }} />
           +91-8945671230
         </a>
         <br />
         <strong>HR & Recruitment:</strong>{" "}
-        <a href="tel:+918945671230" style={{ color: "#0066cc", textDecoration: "none" }}>
+        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}>
           <Phone sx={{ fontSize: 18, marginRight: 1 }} />
           +91-8945671230
         </a>
         <br />
         <strong>SMS, Voice Call, WhatsApp, Ads:</strong>{" "}
-        <a href="tel:+918945671230" style={{ color: "#0066cc", textDecoration: "none" }}>
+        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}>
           <Phone sx={{ fontSize: 18, marginRight: 1 }} />
           +91-8945671230
         </a>
@@ -87,12 +87,12 @@ const CombinedContactPage = () => {
         sx={{ color: "#777", fontSize: "1rem", lineHeight: 1.6 }}
       >
         <strong>Send Email:</strong>{" "}
-        <a href="mailto:info@Vireonix.com" style={{ color: "#0066cc", textDecoration: "none" }}>
+        <a href="mailto:info@Vireonix.com" style={{ color: "#ff5654", textDecoration: "none" }}>
           <Email sx={{ fontSize: 18, marginRight: 1 }} />
           info@Vireonix.com
         </a>{" "}
         /{" "}
-        <a href="mailto:hr@Vireonix.com" style={{ color: "#0066cc", textDecoration: "none" }}>
+        <a href="mailto:hr@Vireonix.com" style={{ color: "#ff5654", textDecoration: "none" }}>
           <Email sx={{ fontSize: 18, marginRight: 1 }} />
           hr@Vireonix.com
         </a>
@@ -101,7 +101,7 @@ const CombinedContactPage = () => {
         SAHIBZADA AJIT SINGH NAGAR, PUNJAB 140307
         <br />
         <strong>Phone:</strong>{" "}
-        <a href="tel:18002003575" style={{ color: "#0066cc", textDecoration: "none" }}>
+        <a href="tel:18002003575" style={{ color: "#ff5654", textDecoration: "none" }}>
           <Phone sx={{ fontSize: 18, marginRight: 1 }} />
           1800 200 3575
         </a>

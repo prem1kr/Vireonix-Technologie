@@ -133,11 +133,11 @@ const Navbar = () => {
               animation: `${fadeIn} 1s ease-out`,
               position:"relative",
               left:"-60px",
-              color:"#B22222"
+              color:"#ff5456"
             }}
             onClick={handleHomeClick} // Navigate to Home when clicked
           >
-           Vireonix Tech
+           Vireonix technologies
           </Typography>
 
           {/* Desktop Menu */}
@@ -184,13 +184,13 @@ const Navbar = () => {
               animation: `${fadeIn} 1.4s ease-out`,
             }}
           >
-            <IconButton color="primary">
+            <IconButton color="#0bb964">
               <FacebookIcon />
             </IconButton>
-            <IconButton color="primary">
+            <IconButton color="##0bb964">
               <InstagramIcon />
             </IconButton>
-            <IconButton color="primary" onClick={() => window.location.href = "https://www.linkedin.com/company/vireonix-technologies/"}>
+            <IconButton color="#0bb964" onClick={() => window.location.href = "https://www.linkedin.com/company/vireonix-technologies/"}>
   <LinkedInIcon />
 </IconButton>
 
@@ -239,7 +239,7 @@ const Navbar = () => {
                 }}
                 sx={{
                   "&:hover": {
-                    backgroundColor: "#007BFF",
+                    backgroundColor: "#ff5654",
                     color: "white",
                   },
                   animation: `${fadeIn} 0.6s ease-in`,

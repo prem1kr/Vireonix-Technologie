@@ -42,7 +42,7 @@ const DownloadPage = () => {
               <Typography
                 variant="h4"
                 gutterBottom
-                sx={{ fontSize: { xs: "20px", md: "32px", position: "relative", marginTop: "5%" } }}
+                sx={{ fontSize: { xs: "20px", md: "32px", position: "relative", marginTop: "5%", color:"#fb5957" } }}
               >
                 Download Vireonix Technologies App
               </Typography>

@@ -78,7 +78,7 @@ const Opportunity = () => {
       </Typography>
       <Typography
         variant="h6"
-        sx={{ color: "#CD5C5C", mb: 4, fontWeight: "bold" }}
+        sx={{ color: "#ff5456", mb: 4, fontWeight: "bold" }}
       >
         Our Key Services
       </Typography>
@@ -108,7 +108,7 @@ const Opportunity = () => {
               />
               <Typography
                 variant="h6"
-                sx={{ fontWeight: "bold", color: "#228B22", mb: 1 }}
+                sx={{ fontWeight: "bold", color: "#00bf62", mb: 1 }}
               >
                 {service.title}
               </Typography>
@@ -159,7 +159,7 @@ const Opportunity = () => {
               />
               <Typography
                 variant="h6"
-                sx={{ fontWeight: "bold", color: "#228B22", mb: 1 }}
+                sx={{ fontWeight: "bold", color: "#00bf62", mb: 1 }}
               >
                 {service.title}
               </Typography>

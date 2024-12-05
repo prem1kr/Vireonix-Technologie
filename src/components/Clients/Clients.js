@@ -60,13 +60,13 @@ function Clients() {
 
      sx={{ overflow: 'hidden', maxWidth: '1400px', margin: 'auto', position: 'relative', height: '60vh' }}>
       <Typography
-        variant="h4"
+        variant="h6"
         gutterBottom
         align="center"
         sx={{
           marginTop: 4,
-          color:'#CD5C5C',
-          fontSize: { xs: '1.5rem', sm: '1rem', md: '1.5rem' },
+          color:'#333',
+          fontSize: { xs: '1.2rem', sm: '1rem', md: '1.5rem' },
         }}
       >
         Our Students

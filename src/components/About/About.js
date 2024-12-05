@@ -97,7 +97,7 @@ const About = () => {
             variant="h5"
             sx={{
               fontWeight: "bold",
-              color: "#333",
+              color: "#ff5456",
               marginBottom: "1rem",
               textAlign: { xs: "center", md: "left" },
               fontSize: { xs: "1.8rem", md: "2.5rem" },
@@ -124,7 +124,7 @@ We specialize in Web & App Development, Custom Software, and Cloud Services for 
             variant="h6"
             sx={{
               fontWeight: "bold",
-              color: "#333",
+              color: "#00bf60",
               marginBottom: "0.5rem",
               textAlign: { xs: "center", md: "left" },
               fontSize: { xs: "1.2rem", md: "1.5rem" },
@@ -152,7 +152,7 @@ We specialize in Web & App Development, Custom Software, and Cloud Services for 
             variant="h6"
             sx={{
               fontWeight: "bold",
-              color: "#333",
+              color: "#00bf60",
               marginBottom: "0.5rem",
               textAlign: { xs: "center", md: "left" },
               fontSize: { xs: "1.2rem", md: "1.5rem" },
@@ -180,7 +180,7 @@ We specialize in Web & App Development, Custom Software, and Cloud Services for 
             variant="h6"
             sx={{
               fontWeight: "bold",
-              color: "#333",
+              color: "#00bf60",
               marginBottom: "0.5rem",
               textAlign: { xs: "center", md: "left" },
               fontSize: { xs: "1.2rem", md: "1.5rem" },
