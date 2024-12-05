@@ -132,7 +132,7 @@ const Navbar = () => {
               cursor: "pointer", // Makes the text clickable
               animation: `${fadeIn} 1s ease-out`,
               position:"relative",
-              left:"-60px",
+              
               color:"#ff5456"
             }}
             onClick={handleHomeClick} // Navigate to Home when clicked
