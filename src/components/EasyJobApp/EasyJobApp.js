@@ -150,7 +150,7 @@ const DownloadPage = () => {
                 borderRadius: "40px",
                 background:"none"
               }}
-              image="phone.WEBP"
+              image="phone.png"
               alt="App Screenshots"
             />
           </motion.div>
