@@ -45,7 +45,7 @@ const WelcomePage = () => {
     sx={{
       position: 'relative',
       padding: { xs: '1rem', md: '5rem' },
-      minHeight: '75vh',
+      minHeight: '70vh',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
@@ -139,10 +139,10 @@ Partner with us for innovative solutions to elevate your business.
           >
             <CardMedia
               component="img"
-              image="welcomepage.png"
+              image="welcomepages.png"
               alt="Team Meeting"
               sx={{
-                width: { xs: "100%", sm: "90%", md: "90%" }, // Adjust width for different screen sizes
+                width: { xs: "100%", sm: "90%", md: "50%" }, // Adjust width for different screen sizes
                 height: "auto", // Maintain aspect ratio
                 borderRadius: "8px", // Optional: Rounded corners
               }}
