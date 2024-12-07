@@ -68,16 +68,17 @@ const About = () => {
         >
           <CardMedia
             component="img"
-            image="about.png"
+            image="whoweare.png"
             alt="Who are we?"
             sx={{
               borderRadius: "1rem",
               boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.1)",
               width: "100%",
-              height: "auto",
+              height: "600px",
               objectFit: "cover",
               position: "relative",
-              left: "-5%",
+              right:"5px"
+              
             }}
           />
         </Grid>
@@ -91,6 +92,8 @@ const About = () => {
             animation: inView
               ? `${slideInFromRight} 1.5s ease-out`
               : "none", // Apply animation only if inView is true
+              position:"relative",
+              left:"10px",
           }}
         >
           <Typography
@@ -101,6 +104,7 @@ const About = () => {
               marginBottom: "1rem",
               textAlign: { xs: "center", md: "left" },
               fontSize: { xs: "1.8rem", md: "2.5rem" },
+              
             }}
           >
             Who are we?

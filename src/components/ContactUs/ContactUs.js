@@ -62,19 +62,33 @@ const CombinedContactPage = () => {
         sx={{ color: "#777", fontSize: "1rem", lineHeight: 1.6 }}
       >
         <strong>General Enquiry:</strong>{" "}
-        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}>
-          <Phone sx={{ fontSize: 18, marginRight: 1 }} />
-          +91-8945671230
-        </a>
+        <a
+  href="tel:+918945671230"
+  style={{
+    color: "#ff5654",
+    textDecoration: "none",
+  }}
+  onMouseEnter={(e) => (e.currentTarget.style.color = "#008000")} // Change color on hover
+  onMouseLeave={(e) => (e.currentTarget.style.color = "#ff5654")} // Reset color when hover ends
+>
+  <Phone sx={{ fontSize: 18, marginRight: 1 }} />
+  +91-8945671230
+</a>
         <br />
         <strong>HR & Recruitment:</strong>{" "}
-        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}>
+        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}
+         onMouseEnter={(e) => (e.currentTarget.style.color = "#008000")} // Change color on hover
+         onMouseLeave={(e) => (e.currentTarget.style.color = "#ff5654")} // Reset color when hover ends
+        >
           <Phone sx={{ fontSize: 18, marginRight: 1 }} />
           +91-8945671230
         </a>
         <br />
         <strong>SMS, Voice Call, WhatsApp, Ads:</strong>{" "}
-        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}>
+        <a href="tel:+918945671230" style={{ color: "#ff5654", textDecoration: "none" }}
+         onMouseEnter={(e) => (e.currentTarget.style.color = "#008000")} // Change color on hover
+         onMouseLeave={(e) => (e.currentTarget.style.color = "#ff5654")} // Reset color when hover ends
+        >
           <Phone sx={{ fontSize: 18, marginRight: 1 }} />
           +91-8945671230
         </a>
@@ -85,14 +99,21 @@ const CombinedContactPage = () => {
         variant="body2"
         mt={2}
         sx={{ color: "#777", fontSize: "1rem", lineHeight: 1.6 }}
+        
       >
         <strong>Send Email:</strong>{" "}
-        <a href="mailto:info@Vireonix.com" style={{ color: "#ff5654", textDecoration: "none" }}>
+        <a href="mailto:info@Vireonix.com" style={{ color: "#ff5654", textDecoration: "none" }}
+         onMouseEnter={(e) => (e.currentTarget.style.color = "#008000")} // Change color on hover
+         onMouseLeave={(e) => (e.currentTarget.style.color = "#ff5654")} // Reset color when hover ends
+        >
           <Email sx={{ fontSize: 18, marginRight: 1 }} />
           info@Vireonix.com
         </a>{" "}
         /{" "}
-        <a href="mailto:hr@Vireonix.com" style={{ color: "#ff5654", textDecoration: "none" }}>
+        <a href="mailto:hr@Vireonix.com" style={{ color: "#ff5654", textDecoration: "none" }}
+         onMouseEnter={(e) => (e.currentTarget.style.color = "#008000")} // Change color on hover
+         onMouseLeave={(e) => (e.currentTarget.style.color = "#ff5654")} // Reset color when hover ends
+        >
           <Email sx={{ fontSize: 18, marginRight: 1 }} />
           hr@Vireonix.com
         </a>
@@ -101,7 +122,10 @@ const CombinedContactPage = () => {
         SAHIBZADA AJIT SINGH NAGAR, PUNJAB 140307
         <br />
         <strong>Phone:</strong>{" "}
-        <a href="tel:18002003575" style={{ color: "#ff5654", textDecoration: "none" }}>
+        <a href="tel:18002003575" style={{ color: "#ff5654", textDecoration: "none" }}
+         onMouseEnter={(e) => (e.currentTarget.style.color = "#008000")} // Change color on hover
+         onMouseLeave={(e) => (e.currentTarget.style.color = "#ff5654")} // Reset color when hover ends
+        >
           <Phone sx={{ fontSize: 18, marginRight: 1 }} />
           1800 200 3575
         </a>

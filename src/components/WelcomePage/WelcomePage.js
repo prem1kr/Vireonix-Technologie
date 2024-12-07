@@ -45,7 +45,7 @@ const WelcomePage = () => {
     sx={{
       position: 'relative',
       padding: { xs: '1rem', md: '5rem' },
-      minHeight: '70vh',
+      minHeight: '65vh',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
