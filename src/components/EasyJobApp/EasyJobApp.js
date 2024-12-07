@@ -22,9 +22,14 @@ const DownloadPage = () => {
             flexDirection: { xs: "column", md: "row" },
             padding: "20px",
             backgroundColor: "#D9D9D9",
+           
+            backgroundSize: "cover", // Make the background cover the entire Card
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
             marginBottom: "20px",
             gap: { xs: "20px", md: "0" },
             alignItems: { xs: "center", md: "flex-start" },
+            height: "auton", // Allow Card to grow based on content
           }}
         >
           {/* Text Content */}
@@ -42,7 +47,12 @@ const DownloadPage = () => {
               <Typography
                 variant="h4"
                 gutterBottom
-                sx={{ fontSize: { xs: "20px", md: "32px", position: "relative", marginTop: "5%", color:"#fb5957" } }}
+                sx={{
+                  fontSize: { xs: "20px", md: "32px" },
+                  position: "relative",
+                  marginTop: "5%",
+                  color: "#fb5957",
+                }}
               >
                 Download Vireonix Technologies App
               </Typography>
@@ -55,7 +65,11 @@ const DownloadPage = () => {
               <Typography
                 variant="body1"
                 mb={2}
-                sx={{ fontSize: { xs: "14px", md: "16px", position: "relative", marginTop: "5%" } }}
+                sx={{
+                  fontSize: { xs: "14px", md: "16px" },
+                  position: "relative",
+                  marginTop: "5%",
+                }}
               >
                 - Resume Build assistance
                 <br />
@@ -73,7 +87,9 @@ const DownloadPage = () => {
                 sx={{
                   display: "flex",
                   gap: "10px",
-                  justifyContent: { xs: "center", md: "flex-start", position: "relative", marginTop: "5%" },
+                  justifyContent: { xs: "center", md: "flex-start" },
+                  position: "relative",
+                  marginTop: "5%",
                 }}
               >
                 <img
@@ -143,14 +159,14 @@ const DownloadPage = () => {
             <CardMedia
               component="img"
               sx={{
-                width: { xs: "200px", md: "300px" },
+                width: { xs: "600px", md: "450px" },
                 height: { xs: "200px", md: "300px" },
-                objectFit: "contain",
+                objectFit: "cover", // Adjust this to cover the area of the container
                 backgroundColor: "transparent",
                 borderRadius: "40px",
-                background:"none"
+                background: "none",
               }}
-              image="phone.png"
+              image="phone (4).png"
               alt="App Screenshots"
             />
           </motion.div>
