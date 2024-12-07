@@ -1,167 +1,158 @@
 import React from "react";
-import { Box, Grid, Typography, TextField, Button, Link } from "@mui/material"; // Added 'Link' import
-import { Facebook, Twitter, Instagram, LinkedIn, Email } from "@mui/icons-material";
+import { Box, Grid, Typography, TextField, Button, Link } from "@mui/material";
+import { Facebook, Twitter, Instagram, Pinterest, YouTube, LinkedIn } from "@mui/icons-material";
 
 const Footer = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#F7FAFC",
-        padding: { xs: "20px 10px", md: "40px 20px" },
-        borderTop: "1px solid #ddd",
-        display: "flex",
-        justifyContent: "center", // Center the grid horizontally
-        alignItems: "center", // Center the grid vertically
-        flexDirection: "column", // Stack content vertically
+        backgroundColor: "#033B32",
+        color: "#fff",
+        padding: { xs: "20px", md: "40px" },
       }}
     >
-      <Grid
-        container
-        spacing={4}
-        sx={{
-          display: "flex",
-          justifyContent: "center", // Center the grid content
-          textAlign: "center", // Center the text in the grid
-        }}
-      >
-        {/* Partners */}
-        <Grid item xs={12} sm={6} md={3}>
-          <Typography variant="h6" gutterBottom>
-            Partners
+      <Grid container spacing={4}>
+        {/* Left Section: Links */}
+        <Grid item xs={12} md={6} lg={4}>
+          <Typography variant="h5" sx={{ fontWeight: "bold", marginBottom: "20px" }}>
+            Chobani
           </Typography>
-          {["Vireonix Technologies", "Webtoks IT Solutions", "Webtuks IT Solutions"].map((partner) => (
-            <Typography
-              key={partner}
-              sx={{
-                cursor: "pointer",
-                transition: "color 0.3s",
-                "&:hover": { color: "primary.main" },
-              }}
-            >
-              {partner}
-            </Typography>
-          ))}
+          <Box sx={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+            {["Careers", "Our Services", "Consumer Care", "Alumni", "latest News", "Webservice", "mohali® punjab", "punjab® India"].map((item) => (
+              <Typography
+                key={item}
+                variant="body2"
+                sx={{
+                  fontSize: "0.9rem",
+                  cursor: "pointer",
+                  "&:hover": { color:"#00bf62" },
+                }}
+              >
+                {item}
+              </Typography>
+            ))}
+          </Box>
         </Grid>
 
-        {/* Social Media Links */}
-        <Grid item xs={12} sm={6} md={3}>
-          <Typography variant="h6" gutterBottom>
-            Stay Connected
+        {/* Middle Section: Social Links */}
+        <Grid item xs={12} md={6} lg={4}>
+          <Typography variant="body1" sx={{ fontWeight: "bold", marginBottom: "10px" }}>
+            Follow Us
           </Typography>
-          <Box
-            sx={{
-              display: "flex",
-              gap: "10px",
-              justifyContent: "center", // Center icons horizontally
-              marginTop: "10px",
-              flexWrap: "wrap", // Allow icons to wrap on smaller screens
-            }}
-          >
-            {[Facebook, Twitter, Email, Instagram].map((Icon, index) => (
+          <Box sx={{ display: "flex", gap: "15px", alignItems: "center" }}>
+            {[Facebook, Twitter, Instagram, Pinterest, YouTube].map((Icon, index) => (
               <Icon
                 key={index}
-                fontSize="large"
                 sx={{
+                  fontSize: "1.8rem",
                   cursor: "pointer",
-                  fontSize: { xs: "1.5rem", md: "2rem" },
                   transition: "color 0.3s",
-                  "&:hover": { color: "#ff5654" },
+                  "&:hover": { color: "#fd5356" },
                 }}
               />
             ))}
-
             {/* LinkedIn Icon with Redirect */}
-            <Link href="https://www.linkedin.com/company/vireonix-technologies/" target="_blank" sx={{ color: "inherit" }}>
+            <Link
+              href="https://www.linkedin.com/company/chobani/"
+              target="_blank"
+              sx={{ color: "inherit", textDecoration: "none" }}
+            >
               <LinkedIn
-                fontSize="large"
                 sx={{
+                  fontSize: "1.8rem",
                   cursor: "pointer",
-                  fontSize: { xs: "1.5rem", md: "2rem" },
                   transition: "color 0.3s",
-                  "&:hover": { color: "#ff5654" },
+                  "&:hover": { color: "#ff5857" },
                 }}
               />
             </Link>
           </Box>
         </Grid>
 
-        {/* Newsletter */}
-        <Grid item xs={12} sm={6} md={3}>
-          <Typography variant="h6" gutterBottom>
-            For latest news and updates
-          </Typography>
-          <Typography variant="body2" sx={{ marginBottom: "10px" }}>
-            Stay updated with our latest job opportunities, recruitment tips, and career insights. Subscribe to our
-            newsletter and never miss an update on your job search journey!
+        {/* Right Section: Newsletter */}
+        <Grid item xs={12} lg={4}>
+          <Typography variant="body1" sx={{ fontWeight: "bold", marginBottom: "10px" }}>
+            Subscribe here
           </Typography>
           <Box
             component="form"
             sx={{
               display: "flex",
-              flexDirection: { xs: "column", md: "row" },
+              flexDirection: "column",
               gap: "10px",
-              justifyContent: "center", // Center the form
             }}
           >
             <TextField
-              label="Enter your mail here"
+              placeholder="Your email here"
               variant="outlined"
               size="small"
-              fullWidth
               sx={{
-                flexGrow: 1,
-                "& .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline": {
-                  borderColor: "primary.main",
+                backgroundColor: "#fff",
+                borderRadius: "5px",
+                "& .MuiOutlinedInput-root": {
+                  fontSize: "0.9rem",
                 },
               }}
             />
             <Button
               variant="contained"
-              color="primary"
-              size="small"
               sx={{
-                backgroundColor:"#CD5C5C",
-                transition: "transform 0.2s",
-                "&:hover": { transform: "scale(1.05)" },
+                backgroundColor: "#ff5456",
+                color: "#033B32",
+                fontSize: "0.9rem",
+                "&:hover": { backgroundColor: "#01be64" },
               }}
             >
               Subscribe
             </Button>
           </Box>
+          <Typography
+            variant="caption"
+            sx={{
+              color: "#C5C5C5",
+              fontSize: "0.8rem",
+              marginTop: "5px",
+            }}
+          >
+            
+          </Typography>
         </Grid>
       </Grid>
 
-      {/* Footer Bottom */}
+      {/* Footer Bottom Links */}
       <Box
         sx={{
-          marginTop: "40px",
-          textAlign: "center",
-          borderTop: "1px solid #ddd",
-          paddingTop: "20px",
+          marginTop: "30px",
+          borderTop: "1px solid #546E64",
+          paddingTop: "15px",
+          display: "flex",
+          justifyContent: "center",
+          flexWrap: "wrap",
+          gap: "15px",
         }}
       >
-        <Typography
-          variant="body2"
-          color="textSecondary"
-          sx={{
-            fontSize: { xs: "0.8rem", md: "1rem" },
-            transition: "color 0.3s",
-            "&:hover": { color: "primary.main" },
-          }}
-        >
-          Terms Of Use | Privacy Policy | Accessibility
-        </Typography>
-        <Typography
-          variant="body2"
-          color="textSecondary"
-          sx={{
-            fontSize: { xs: "0.8rem", md: "1rem" },
-            transition: "color 0.3s",
-            "&:hover": { color: "primary.main" },
-          }}
-        >
-          Copyright © Vireonix Technologies 2024. All rights reserved.
-        </Typography>
+        {[
+          "Website Terms",
+          "Privacy Policy",
+          "Accessibility Statement",
+          "CA Transparency in Supply Chains Act",
+          "Supplier Code of Conduct",
+          "Marketing to Children",
+          "Do Not Sell My Information",
+        ].map((item) => (
+          <Typography
+            key={item}
+            variant="caption"
+            sx={{
+              color: "white",
+              fontSize: "0.8rem",
+              cursor: "pointer",
+              "&:hover": { textDecoration: "underline" },
+            }}
+          >
+            {item}
+          </Typography>
+        ))}
       </Box>
     </Box>
   );
