@@ -53,7 +53,7 @@ const Footer = () => {
             ))}
             {/* LinkedIn Icon with Redirect */}
             <Link
-              href="https://www.linkedin.com/company/chobani/"
+              href="https://www.linkedin.com/company/vireonix-technologies/"
               target="_blank"
               sx={{ color: "inherit", textDecoration: "none" }}
             >
