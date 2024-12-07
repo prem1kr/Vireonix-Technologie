@@ -159,7 +159,7 @@ const DownloadPage = () => {
             <CardMedia
               component="img"
               sx={{
-                width: { xs: "600px", md: "450px" },
+                width: { xs: "425px", md: "450px" },
                 height: { xs: "200px", md: "300px" },
                 objectFit: "cover", // Adjust this to cover the area of the container
                 backgroundColor: "transparent",
