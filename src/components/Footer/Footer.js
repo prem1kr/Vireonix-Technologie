@@ -160,7 +160,7 @@ const Footer = () => {
             "&:hover": { color: "primary.main" },
           }}
         >
-          Copyright © DortexAI Pvt Ltd 2024. All rights reserved.
+          Copyright © Vireonix Technologies 2024. All rights reserved.
         </Typography>
       </Box>
     </Box>
