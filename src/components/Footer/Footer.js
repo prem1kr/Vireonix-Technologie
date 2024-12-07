@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Left Section: Links */}
         <Grid item xs={12} md={6} lg={4}>
           <Typography variant="h5" sx={{ fontWeight: "bold", marginBottom: "20px" }}>
-            Chobani
+            Vireonix Technologies
           </Typography>
           <Box sx={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             {["Careers", "Our Services", "Consumer Care", "Alumni", "latest News", "Webservice", "mohali® punjab", "punjab® India"].map((item) => (
